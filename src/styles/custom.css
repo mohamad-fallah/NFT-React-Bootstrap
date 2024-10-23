@@ -1,38 +1,20 @@
+@import url("./fonts.css");
+
 :root {
-    --color_07107D: #07107D
+  --color_07101D: #07101d;
+  --color_FF3C00: #ff3c00;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  font-family: "Kalameh-Regular";
-  background-color: var(--color_07107D);
+
+a {
+  text-decoration: none;
 }
 
-@font-face {
-  font-family: "Kalameh-Black";
-  font-style: normal;
-  src: url("/public/assets/fonts/_Woff2/KalamehWeb-Black.woff2") format("woff2"),
-    url("/public/assets/fonts/_Woff/KalamehWeb-Black.woff") format("woff");
-}
-@font-face {
-  font-family: "Kalameh-Bold";
-  font-style: normal;
-  src: url("/public/assets/fonts/_Woff2/KalamehWeb-Bold.woff2") format("woff2"),
-    url("/public/assets/fonts/_Woff/KalamehWeb-Bold.woff") format("woff");
-}
-@font-face {
+body {
   font-family: "Kalameh-Regular";
-  font-style: normal;
-  src: url("/public/assets/fonts/_Woff2/KalamehWeb-Regular.woff2")
-      format("woff2"),
-    url("/public/assets/fonts/_Woff/KalamehWeb-Regular.woff") format("woff");
-}
-@font-face {
-  font-family: "Kalameh-Thin";
-  font-style: normal;
-  src: url("/public/assets/fonts/_Woff2/KalamehWeb-Thin.woff2") format("woff2"),
-    url("/public/assets/fonts/_Woff/KalamehWeb-Thin.woff") format("woff");
+  background-color: var(--color_07101D);
 }

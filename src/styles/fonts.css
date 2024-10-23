@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: "Kalameh-Black";
+    font-style: normal;
+    src: url("/public/assets/fonts/_Woff2/KalamehWeb-Black.woff2") format("woff2"),
+      url("/public/assets/fonts/_Woff/KalamehWeb-Black.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Kalameh-Bold";
+    font-style: normal;
+    src: url("/public/assets/fonts/_Woff2/KalamehWeb-Bold.woff2") format("woff2"),
+      url("/public/assets/fonts/_Woff/KalamehWeb-Bold.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Kalameh-Regular";
+    font-style: normal;
+    src: url("/public/assets/fonts/_Woff2/KalamehWeb-Regular.woff2")
+        format("woff2"),
+      url("/public/assets/fonts/_Woff/KalamehWeb-Regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Kalameh-Thin";
+    font-style: normal;
+    src: url("/public/assets/fonts/_Woff2/KalamehWeb-Thin.woff2") format("woff2"),
+      url("/public/assets/fonts/_Woff/KalamehWeb-Thin.woff") format("woff");
+  }
